@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+# 記録
+2026/02/23(月) Githubアカウント作成、nanten-systemsリポジトリ作成
+
 <!--
 **nanten-systems/nanten-systems** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
