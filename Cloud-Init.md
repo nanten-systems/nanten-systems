@@ -71,10 +71,8 @@ cat ~/.ssh/id_ed25519.pub
 
 > [!NOTE]
 > SSH公開鍵の実行結果
+> 
 > AAAAC3NzaC1lZDI1NTE5AAAAIKD/2OKotkcWzQt4+QAK9EXU/3JDUUTQfCrUcS5u9zym nanten@ubuntu
-
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
 
 ## 2.2 構成ファイルの記述(User/Network)
 1. /var/lib/vz/snippets/user-config.yamlに設定追加
@@ -151,6 +149,3 @@ qm start 123
 - [Proxmox Cloud-init support](https://pve.proxmox.com/wiki/Cloud-Init_Support)
 - [Ubuntu 24.04 LTSクラウドイメージ](https://cloud-images.ubuntu.com/noble/current/)
 - [NotebookLM Cloud-init](https://notebooklm.google.com/notebook/72d94c17-9398-401f-8bd3-1080efca7b2b)
-
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
