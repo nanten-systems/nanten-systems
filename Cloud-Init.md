@@ -34,6 +34,7 @@ qm set 9000 --ide2 local-zfs:cloudinit
 qm set 9000 --boot c --bootdisk scsi0
 ```
 > [!WARNING] 起動順序の設定について
+> 
 >    - **`--boot c`**: 「ディスクドライブ（HDD/SSD）」から優先的に起動せよ、という指示です。
 > 	   - `a`: フロッピー
 > 	   - `c`: 第一ディスク（ハードディスク）
@@ -46,6 +47,7 @@ qm set 9000 --boot c --bootdisk scsi0
 qm set 9000 --serial0 socket --vga serial0
 ```
 > [!TIP] シリアルポート接続の設定について
+> 
 >- **`--serial0 socket`**: 仮想マシンに「シリアルポート（0番）」を追加し、その通信を「Unixソケット」という形式で行うように設定します。
 >- **`--vga serial0`**: Proxmoxのコンソール（画面）に表示する内容を、通常のグラフィックカード出力ではなく、今作った **`serial0`** の内容にするよう指示します。
 
@@ -77,18 +79,18 @@ cat ~/.ssh/id_ed25519.pub
 
 # ユーザ設定
 users:
-  - name: akira         # 作成するユーザー名
+  - name: nanten         # 作成するユーザー名
     groups: sudo             # sudoグループに追加
     shell: /bin/bash         # デフォルトシェルをbashに設定
     sudo: ALL=(ALL) NOPASSWD:ALL  # パスワードなしでsudoを実行可能にする
     ssh_authorized_keys:
-      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKD/2OKotkcWzQt4+QAK9EXU/3JDUUTQfCrUcS5u9zym akira@ubuntu
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKD/2OKotkcWzQt4+QAK9EXU/3JDUUTQfCrUcS5u9zym nanten@ubuntu
     lock_passwd: false  # パスワードロックを解除
 
 # パスワード設定
 chpasswd:
   list: |
-     akira:NKOakr0125!
+     nanten:xxx
   expire: false
 
 # 基本設定
