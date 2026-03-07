@@ -33,7 +33,7 @@ qm set 9000 --ide2 local-zfs:cloudinit
 ``` bash
 qm set 9000 --boot c --bootdisk scsi0
 ```
-> [!WARNING]起動順序の設定について
+> [!WARNING] 起動順序の設定について
 >    - **`--boot c`**: 「ディスクドライブ（HDD/SSD）」から優先的に起動せよ、という指示です。
 > 	   - `a`: フロッピー
 > 	   - `c`: 第一ディスク（ハードディスク）
@@ -45,7 +45,7 @@ qm set 9000 --boot c --bootdisk scsi0
 ``` bash
 qm set 9000 --serial0 socket --vga serial0
 ```
-> [!TIP]シリアルポート接続の設定について
+> [!TIP] シリアルポート接続の設定について
 >- **`--serial0 socket`**: 仮想マシンに「シリアルポート（0番）」を追加し、その通信を「Unixソケット」という形式で行うように設定します。
 >- **`--vga serial0`**: Proxmoxのコンソール（画面）に表示する内容を、通常のグラフィックカード出力ではなく、今作った **`serial0`** の内容にするよう指示します。
 
