@@ -33,8 +33,8 @@ qm set 9000 --ide2 local-zfs:cloudinit
 ``` bash
 qm set 9000 --boot c --bootdisk scsi0
 ```
-> [!WARNING] 起動順序の設定について
-> 
+> [!WARNING]
+> 起動順序の設定について
 >    - **`--boot c`**: 「ディスクドライブ（HDD/SSD）」から優先的に起動せよ、という指示です。
 > 	   - `a`: フロッピー
 > 	   - `c`: 第一ディスク（ハードディスク）
@@ -46,8 +46,8 @@ qm set 9000 --boot c --bootdisk scsi0
 ``` bash
 qm set 9000 --serial0 socket --vga serial0
 ```
-> [!TIP] シリアルポート接続の設定について
-> 
+> [!TIP] 
+> シリアルポート接続の設定について
 >- **`--serial0 socket`**: 仮想マシンに「シリアルポート（0番）」を追加し、その通信を「Unixソケット」という形式で行うように設定します。
 >- **`--vga serial0`**: Proxmoxのコンソール（画面）に表示する内容を、通常のグラフィックカード出力ではなく、今作った **`serial0`** の内容にするよう指示します。
 
@@ -69,8 +69,12 @@ ssh-keygen -t ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
->[!NOTE]- SSH公開鍵の実行結果
->AAAAC3NzaC1lZDI1NTE5AAAAIKD/2OKotkcWzQt4+QAK9EXU/3JDUUTQfCrUcS5u9zym akira@ubuntu
+> [!NOTE]
+> SSH公開鍵の実行結果
+> AAAAC3NzaC1lZDI1NTE5AAAAIKD/2OKotkcWzQt4+QAK9EXU/3JDUUTQfCrUcS5u9zym nanten@ubuntu
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
 
 ## 2.2 構成ファイルの記述(User/Network)
 1. /var/lib/vz/snippets/user-config.yamlに設定追加
