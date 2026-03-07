@@ -3,8 +3,8 @@
 ## 1. アカウント準備
 1. **Gmail作成**: `new_account@gmail.com` を作成。
 2. **Cloudflare(new)作成**: `new_account@gmail.com` でアカウント作成。
-   > [!NOTE]
-   > 以降、このアカウントを **(new)** と表記。
+> [!NOTE]
+> 以降、このアカウントを **(new)** と表記。
 
 ## 2. ドメイン取得と管理権限の移動
 3. **ドメイン購入**: `old_account@gmail.com` **(old)** のアカウントで `new_account.com` を10年分購入。
