@@ -147,3 +147,6 @@ qm start 123
 - [Proxmox Cloud-init support](https://pve.proxmox.com/wiki/Cloud-Init_Support)
 - [Ubuntu 24.04 LTSクラウドイメージ](https://cloud-images.ubuntu.com/noble/current/)
 - [NotebookLM Cloud-init](https://notebooklm.google.com/notebook/72d94c17-9398-401f-8bd3-1080efca7b2b)
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
