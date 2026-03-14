@@ -4,6 +4,7 @@
 2026/02/23(月) Githubアカウント作成、nanten-systemsリポジトリ作成
 
 2026/03/07(土) UbuntuにGitインストール、クローンやコミット動作確認
+2026/03/08(日) UbuntuにTerraformインストール。Proxmoxで仮想マシンをTerraformで作成
 <!--
 **nanten-systems/nanten-systems** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
