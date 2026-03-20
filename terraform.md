@@ -90,6 +90,7 @@ resource "proxmox_virtual_environment_vm" "ubuntu_vm" {
 }
 ```
 
+
 > [!NOTE]
 > Cloud-init設定のpasswordにはopenssl passwd -6コマンドによりハッシュ化したパスワードを指定する
 
@@ -108,5 +109,5 @@ terraform apply
 ```
 
 # 参考資料
-https://registry.terraform.io/providers/Telmate/proxmox/latest/docs
+https://registry.terraform.io/providers/bpg/proxmox/latest/docs
 https://github.com/AobaIwaki123/Proxmox-Terraform
