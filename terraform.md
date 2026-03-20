@@ -108,6 +108,7 @@ terraform plan
 terraform apply
 ```
 
-# 参考資料
+# 参考サイト
 https://registry.terraform.io/providers/bpg/proxmox/latest/docs
+
 https://github.com/AobaIwaki123/Proxmox-Terraform
